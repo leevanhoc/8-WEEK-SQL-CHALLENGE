@@ -3,6 +3,9 @@
 
 
 
+<p align="center">
+  <img src="![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/45cc2523-8e36-4e89-9566-816f99a042b4)" alt="Logo" width="300">
+</p>
 
 
 ## Introduction
