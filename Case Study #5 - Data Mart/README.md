@@ -1,5 +1,7 @@
 # Case Study #5: Data Mart
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/be09e557-6ee4-447f-abfb-43d53b3c8415)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/45cc2523-8e36-4e89-9566-816f99a042b4)
+
+
 
 
 
@@ -19,8 +21,9 @@ What can we do about future introduction of similar sustainability updates to th
 ## Data
 ### Relationship diagram
 For this case study there is only a single table: data_mart.weekly_sales
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/f33fb483-ccfc-4ea6-b285-c878190806af)
 
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/43beeb1b-c513-454d-aad0-780c48bceca1)
+
 
 
 Here are some further details about the dataset:
@@ -32,8 +35,8 @@ transactions is the count of unique purchases made through Data Mart and sales i
 Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
 
 10 random rows are shown in the table output below from data_mart.weekly_sales.
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/584e8f83-e8d8-492f-9ec5-4dc63b3cb22b)
 
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/880271c7-c064-404a-9942-8c16cffd2954)
 
 
 ### Source data
