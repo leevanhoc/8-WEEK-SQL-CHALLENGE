@@ -1,7 +1,9 @@
 # Case Study #8: Fresh Segments
 
-<img src="https://user-images.githubusercontent.com/101379141/200454568-a7553aaa-fff8-42be-886e-570d7dd6de8f.png" alt="Image" width="500" height="520">
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/101379141/200454568-a7553aaa-fff8-42be-886e-570d7dd6de8f.png" alt="Image" width="400" height="400">
+</p>
 ## Introduction
 
 Danny created Fresh Segments, a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
