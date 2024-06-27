@@ -1,5 +1,8 @@
 # Case Study #2 - Pizza Runner
-![image](https://user-images.githubusercontent.com/120476961/225864035-9731b922-da09-42f1-9335-ef1d72cb359e.png)
+
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/120476961/225864035-9731b922-da09-42f1-9335-ef1d72cb359e.png">
+</p>
 ## Introduction
 Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
 
