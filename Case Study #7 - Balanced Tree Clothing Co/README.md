@@ -70,7 +70,7 @@ Hint: you may want to consider using a recursive CTE to solve this problem!
 
 ***
 ## Solution
-[Click here](https://github.com/DooPhiLong/8-Week-SQL-Challenge/blob/main/Case%20Study%20%237%20-%20Balanced%20Tree%20Clothing%20Co/Solution.md).
+[Click here](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/blob/main/Case%20Study%20%237%20-%20Balanced%20Tree%20Clothing%20Co/Solution.md).
 
 ## Method apllied
 - Creating Tables
