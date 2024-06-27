@@ -1,7 +1,9 @@
 # Case Study #6: Clique Bait
 
-<img src="https://user-images.githubusercontent.com/81607668/134615258-d1108e0d-0816-4cd7-a972-d45580f82352.png" alt="Image" width="300" height="300">
 
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/81607668/134615258-d1108e0d-0816-4cd7-a972-d45580f82352.png" alt="Image" width="400" height="400">
+</p>
 ## Introduction
 Clique Bait is an online seafood store. 
 
