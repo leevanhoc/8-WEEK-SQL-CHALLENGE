@@ -1,6 +1,6 @@
 # Case Study #3 - Foodie-Fi
 <p align="center">
-  <img  src="[https://picsum.photos/460/300](https://user-images.githubusercontent.com/120476961/228118083-e0a0afe1-6635-4585-bfc1-18a6ecd9986c.png)">
+  <img  src="https://user-images.githubusercontent.com/120476961/228118083-e0a0afe1-6635-4585-bfc1-18a6ecd9986c.png">
 </p>
 ## Introduction
 Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows!
