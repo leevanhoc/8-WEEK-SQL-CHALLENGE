@@ -31,7 +31,7 @@ Try to keep it as short as possible - you may also want to run some sort of join
 11. How many customers downgraded from a pro monthly to a basic monthly plan in 2020?
 
 ## Solution
-[Click here](https://github.com/DooPhiLong/8-Week-SQL-Challenge/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution.md)
+[Click here](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/blob/main/Case%20Study%20%233%20-%20Foodie-Fi/Solution.md)
 ## Method applied
 - Creating Tables
 - JOINS
