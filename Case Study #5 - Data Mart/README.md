@@ -1,6 +1,6 @@
 # Case Study #5: Data Mart
 <p align="center">
-  <img width="460" height="500" src="https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/45cc2523-8e36-4e89-9566-816f99a042b4" width="400" height="400">
+  <img width="400" height="400" src="https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/45cc2523-8e36-4e89-9566-816f99a042b4" width="400" height="400">
 </p>
 ## Introduction
 Data Mart is an online supermarket that specialises in fresh produce.
