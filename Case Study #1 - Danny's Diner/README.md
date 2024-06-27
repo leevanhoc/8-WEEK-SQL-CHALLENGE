@@ -1,6 +1,6 @@
 # Case Study #1 - Danny's Diner
 <p align="center">
-  <img  src="https://user-images.githubusercontent.com/120476961/225848936-b987861f-636f-4a3e-b4d6-e9c032df36c9.png">
+  <img  src="https://user-images.githubusercontent.com/120476961/225848936-b987861f-636f-4a3e-b4d6-e9c032df36c9.png" width="400" height="400">
 </p>
 ## Introduction
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
