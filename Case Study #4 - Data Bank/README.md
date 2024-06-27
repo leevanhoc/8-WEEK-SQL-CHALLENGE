@@ -12,30 +12,30 @@ This case study is all about calculating metrics, growth and helping the busines
 
 ## Data
 ### Relationship diagram
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/32e27039-68da-47da-9006-abb738f0f504)
-
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/514338bc-4d0f-403c-9c29-23dd61269e8c)
 ### Source data
 [Click here](https://8weeksqlchallenge.com/case-study-4/)
 
 #### Table 1: Regions
 This regions table contains the region_id and their respective region_name values.
 
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/0cd95f52-bdd8-4d31-a30f-5c80935367f5)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/a0ff79a6-2bcc-4c04-a72c-38e183a28f2b)
 
 #### Table 2: Customer
 This table just show the unique customer's id 
 
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/9f53b9b7-ef81-421e-b777-8c0c47b6efc0)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/0d438398-1c40-4aab-8958-6c46aed3aa28)
+
 
 #### Table 3 : Customer Nodes
 Customers are randomly distributed across the nodes according to their region. This random distribution changes frequently to reduce the risk of hackers getting into Data Bank’s system and stealing customer’s money and data!
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/a5aa59b6-b8d4-41fa-ba61-fbd7dd4e7b1b)
 
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/0ea5df7f-f19c-4930-a35c-c2ba06cf9cb1)
 
 #### Table 4 : Customer Transactions
 This table stores all customer deposits, withdrawals and purchases made using their Data Bank debit card.
 
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/c5a8f89b-eb70-4a15-9503-a788a39aeee1)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/22fba458-e558-4134-8517-6904e7f668ea)
 
 ##  Task Questions
 
