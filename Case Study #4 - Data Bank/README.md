@@ -29,6 +29,7 @@ This table just show the unique customer's id
 
 #### Table 3 : Customer Nodes
 Customers are randomly distributed across the nodes according to their region. This random distribution changes frequently to reduce the risk of hackers getting into Data Bank’s system and stealing customer’s money and data!
+
 ![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/a5aa59b6-b8d4-41fa-ba61-fbd7dd4e7b1b)
 
 
