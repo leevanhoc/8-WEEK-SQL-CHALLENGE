@@ -4,26 +4,31 @@
 ```sql
 select count(distinct(node_id)) from customer_nodes
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/a387fdb5-7852-4473-b232-c6eff273aa24)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/1f2cdbb5-e0a3-4d9b-8d73-06b7d0f7f4d4)
+
 #### 2. What is the number of nodes per region?
 ```sql
 select count(distinct(order_id)) as Amount_unique_customer_ordered from #customer_orders
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/1fad546e-daa9-404e-8a69-b56c0bcb539b)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/63fb6f06-298d-4cb1-9a70-139af388dbc5)
+
 #### 3. How many customers are allocated to each region?
 ```sql
 select r.region_id,r.region_name, count(distinct(c.customer_id)) as number_of_cus from customer_nodes as c join regions as r
 on c.region_id = r.region_id
 group by r.region_id,r.region_name
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/572bed54-bc46-4030-8da8-5460a7587792)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/eb025219-bf8c-43d2-b4b8-1e25f7bd34d8)
+
+
 #### 4. How many days on average are customers reallocated to a different node?
 - DATEDIFF : Returns the difference between two time values based on the specified time period. The two time values must be dates or date and time expressions.
 ```sql
 select AVG(datediff(day,start_date, end_date)) as days_on_average from customer_nodes
 where end_date != '9999-12-31'
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/3dfd7189-1b3f-4830-9e32-76f6731cb60c)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/4f90f9d7-c1c0-48f9-9fde-19f260051ddc)
+
 #### 5. What is the median, 80th and 95th percentile for this same reallocation days metric for each region?
 ```sql
 WITH CTE AS (SELECT region_id,
@@ -38,7 +43,8 @@ SELECT distinct region_id ,
         PERCENTILE_DISC(0.95) WITHIN GROUP (ORDER BY allocation_days) OVER (PARTITION BY region_id) AS #95TH_percentile
 FROM CTE
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/fe038451-4ec9-4b84-809b-3ffb1a12922e)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/7a8137f9-78d5-4ddf-aeaa-4c2819e3b11c)
+
 
 ### B. Customer Transactions
 #### 1. What is the unique count and total amount for each transaction type?
@@ -46,7 +52,8 @@ FROM CTE
 select txn_type,count(*) as unique_count, sum(txn_amount) as total_amount from customer_transactions
 group by txn_type
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/250fa59f-65a8-4376-bf02-b3668ca7d7c4)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/532b6b0b-55d0-4290-adf0-49cd569036ca)
+
 
 #### 2. What is the average total historical deposit counts and amounts for all customers?
 ```sql
@@ -60,7 +67,7 @@ GROUP BY customer_id
  )   
 SELECT AVG(count_deposit) AS avg_count, AVG(amount_deposit) AS avg_amount FROM CTE
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/e7623908-75d1-4150-853c-1ef19b605f98)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/be6b8547-2d88-4326-9a7d-1dff3a75a8f0)
 
 #### 3. For each month - how many Data Bank customers make more than 1 deposit and either 1 purchase or 1 withdrawal in a single month?
 - DATEPART : Returns a time value of the passed argument, which can be a day, month, year, quarter, hour, minute, second, millisecond... The return value is an integer (int).
@@ -78,7 +85,8 @@ select monthh, count(*) as amount_customer from cte
 where count_deposit > 1 and (count_purchase > 1 or count_withdrawal > 1) 
 group by monthh
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/f8cfb717-c539-46aa-a0b4-5e85f1419ab9)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/269cee21-c7a0-4678-9c9d-f5b535a80a34)
+
 
 #### 4. What is the closing balance for each customer at the end of the month?
 - DATEPART : Returns a time value of the passed argument, which can be a day, month, year, quarter, hour, minute, second, millisecond... The return value is an integer (int).
@@ -109,7 +117,7 @@ case when pre_balance is null then balance else balance - pre_balance end as cha
 from cte3
 order by customer_id
 ``` 
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/ac3d4569-52d1-486d-837f-c14bafa6b307)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/d2db48b9-670a-4750-9d11-5ae100bdbf63)
 
 
 #### 5. What is the percentage of customers who increase their closing balance by more than 5%?
@@ -148,4 +156,4 @@ cast(count(distinct(customer_id)) as float)*100
 (select cast(count(distinct(customer_id)) as float) from customer_transactions) as Percent_Customer
 from cte4
 ```
-![image](https://github.com/DooPhiLong/8-Week-SQL-Challenge/assets/120476961/3697e7e2-4434-4159-98ea-f59d17b28241)
+![image](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/assets/173981700/6033ee68-5388-441b-b6eb-251b4c149dfb)
