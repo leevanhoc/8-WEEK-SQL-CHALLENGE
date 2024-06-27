@@ -1,7 +1,9 @@
 # Case Study #7: Balanced Tree Clothing Co.
 
-<img src="https://8weeksqlchallenge.com/images/case-study-designs/7.png" alt="Image" width="300" height="300">
 
+<p align="center">
+  <img src="https://8weeksqlchallenge.com/images/case-study-designs/7.png" alt="Image" width="400" height="400">
+</p>
 ## Introduction
 
 Balanced Tree Clothing Company prides themselves on providing an optimised range of clothing and lifestyle wear for the modern adventurer!
