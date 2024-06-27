@@ -87,7 +87,7 @@ Generate a table that has 1 single row for every unique visit_id record and has 
 
 ***
 ## Solution
-[Click here](https://github.com/DooPhiLong/8-Week-SQL-Challenge/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solution.md)
+[Click here](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/blob/main/Case%20Study%20%236%20-%20Clique%20Bait/Solution.md)
 ## Method apllied
 - Creating Tables
 - JOINS
