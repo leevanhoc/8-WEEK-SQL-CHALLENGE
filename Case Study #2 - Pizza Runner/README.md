@@ -142,7 +142,7 @@ ALTER TABLE pizza_toppings
 ALTER COLUMN topping_name VARCHAR(MAX)
 ```
 ## Solution
-[Click here](https://github.com/DooPhiLong/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Solution.md)
+[Click here](https://github.com/leevanhoc/SQL-CHALLENGE-8-WEEK/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Solution.md)
 ## Method applied
 - Data Cleaning
 - Creating Tables
