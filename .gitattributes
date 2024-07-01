@@ -1,0 +1,3 @@
+*.txt linguist-language=Python
+*.png linguist-vendored
+*.jpg linguist-vendored
