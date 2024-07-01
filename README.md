@@ -5,11 +5,11 @@ Each case study contains a dataset with a series of questions.
 ## Visit Dannys website to find out all about the challenge, as well as different resources: 
 - [8 Week SQL Challenge](https://8weeksqlchallenge.com/)
 ## Case studies
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%232%20-%20Pizza%20Runner
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%233%20-%20Foodie-Fi
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%234%20-%20Data%20Bank
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%235%20-%20Data%20Mart
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%236%20-%20Clique%20Bait
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%237%20-%20Balanced%20Tree%20Clothing%20Co
-https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%238%20-%20Fresh%20Segments
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%231%20-%20Danny's%20Diner
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%232%20-%20Pizza%20Runner
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%233%20-%20Foodie-Fi
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%234%20-%20Data%20Bank
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%235%20-%20Data%20Mart
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%236%20-%20Clique%20Bait
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%237%20-%20Balanced%20Tree%20Clothing%20Co
+- https://github.com/leevanhoc/SQL-8-WEEK-CHALLENGE/tree/main/Case%20Study%20%238%20-%20Fresh%20Segments
